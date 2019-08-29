@@ -27,9 +27,9 @@ public class Utilidades {
 	 * @param n2
 	 * @return n1*n2
 	 */
-	//public float multiplicar(float n1, float n2) {
-	//	return n1 * n2;
-	//}
+	public float multiplicar(float n1, float n2) {
+		return n1 * n2;
+	}
 	/**
 	 * float dividir(float n1, float n2)
 	 * divide dos números float
