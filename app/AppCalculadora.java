@@ -1,5 +1,7 @@
 package app;
 
+import java.util.Scanner;
+
 public class AppCalculadora {
 	
 	public static void menu() {
@@ -12,7 +14,19 @@ public class AppCalculadora {
 	}
 
 	public static void main(String[] args) {
-		
+		boolean continuar = true;
+		char opcion = ' ';
+		Scanner sc = new Scanner(System.in);
+		while(continuar) {
+			do {
+				menu();
+				opcion = sc.next().charAt(0);
+			}while(opcion!='s' && opcion!='r' && opcion!='m' && opcion!='d' && opcion!='f');
+			if(opcion=='f') continuar = false;
+			else {
+				System.out.println("Opción elegida: "+opcion);
+			}
+		}
 	}
 
 }
