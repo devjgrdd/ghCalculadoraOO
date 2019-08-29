@@ -1,19 +1,20 @@
-package calculadora;
+package calculadora.pojos;
 
 public class Calculadora {
 	//atributos
 	private float n1;
 	private float n2;
-	//constructor por defecto
+	//constructor sin parámetros
 	public Calculadora() {
-		this.n1=0.0f;
-		this.n2=0.0f;
+		this.n1 = 0.0f;
+		this.n2 = 0.0f;
 	}
-	//contructor con parámetros
+	//constructor con parámetros
 	public Calculadora(float n1, float n2) {
 		this.n1 = n1;
 		this.n2 = n2;
 	}
+	//consultores y modificadores
 	public float getN1() {
 		return n1;
 	}
@@ -26,9 +27,10 @@ public class Calculadora {
 	public void setN2(float n2) {
 		this.n2 = n2;
 	}
+	//toString
 	@Override
 	public String toString() {
-		return "n1="+this.n1+"\nn2="+this.n2+"\n";
+		return "Calculadora [n1=" + n1 + ", n2=" + n2 + "]";
 	}
 	
 }

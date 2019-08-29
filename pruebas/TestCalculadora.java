@@ -1,5 +1,5 @@
 package pruebas;
-import calculadora.Calculadora;
+import calculadora.pojos.Calculadora;
 
 public class TestCalculadora {
 
