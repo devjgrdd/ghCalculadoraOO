@@ -12,6 +12,9 @@ public class TestUtilidades {
 		
 		Calculadora calc1 = new Calculadora(2,5);
 		System.out.println(new Utilidades().sumar(calc1.getN1(),calc1.getN2()));
+		System.out.println(new Utilidades().restar(calc1.getN1(),calc1.getN2()));
+		System.out.println(new Utilidades().multiplicar(calc1.getN1(),calc1.getN2()));
+		System.out.println(new Utilidades().dividir(calc1.getN1(),calc1.getN2()));
 	}
 
 }
