@@ -7,9 +7,9 @@ public class Utilidades {
 	 * entradas: 2 números float
 	 * salidas: un número float
 	 */
-	//public float sumar(float n1, float n2) {
-	//	return n1 + n2;
-	//}
+	public float sumar(float n1, float n2) {
+		return n1 + n2;
+	}
 	/**
 	 * float restar(float n1, float n2)
 	 * resta dos números float
