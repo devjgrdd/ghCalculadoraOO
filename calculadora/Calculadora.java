@@ -28,7 +28,7 @@ public class Calculadora {
 	}
 	@Override
 	public String toString() {
-		return this.n1+"; "+this.n2;
+		return "n1="+this.n1+"\nn2="+this.n2+"\n";
 	}
 	
 }
